@@ -1,48 +1,51 @@
-# syuukatsu
-就活管理を行うアプリのスクリプトのみ
+# syuukatsu<br>
+就活管理を行うアプリのスクリプトのみ<br>
 
-#REC_SCHeduleApp.swift
-ランチスクリーンを表示するスクリプト
+#REC_SCHeduleApp.swift<br>
+ランチスクリーンを表示するスクリプト<br>
 
 #LaunchScreen.swift<br>
 アプリ起動時にアイコンの表示後、ContentViewを表示するスクリプト<br>
 
-#ContentView.swift
-タブとタブのクリックでScheduleView、CompanyView、MapView、NewsView、SupportViewのそれぞれを表示するスクリプト
-また、1、11、21日以降の起動初日に10日間、1ヶ月目標を見直すアラート文を表示する。
+#ContentView.swift<br>
+タブとタブのクリックでScheduleView、CompanyView、MapView、NewsView、SupportViewのそれぞれを表示するスクリプト<br>
+また、1、11、21日以降の起動初日に10日間、1ヶ月目標を見直すアラート文を表示する。<br>
 
-#ScheduleView.swift
-スケジュールをリスト化して、表示するスクリプト
-今日の予定と明日以降の予定という2種類に分けて、日付、時間、内容、場所を表示する。
+#ScheduleView.swift<br>
+スケジュールをリスト化して、表示するスクリプト<br>
+今日の予定と明日以降の予定という2種類に分けて、日付、時間、内容、場所を表示する。<br>
 
-＞課題点
-　　　日付に合わせて並び替える
-　　　スケジュールをお知らせする
-   　過ぎた予定を削除する
+＞課題点<br>
+　　　日付に合わせて並び替える<br>
+　　　スケジュールをお知らせする<br>
+   　過ぎた予定を削除する<br>
     
-#ScheduleInputView.swift
-スケジュールの入力を行うスクリプト
+#ScheduleInputView.swift<br>
+スケジュールの入力を行うスクリプト<br>
 
-#CompanyView.swift
-気になる企業をリスト化して、表示するスクリプト
+#CompanyView.swift<br>
+気になる企業をリスト化して、表示するスクリプト<br>
     
-#CompanyDetailView.swift
-企業に関する情報をメモしておくスクリプト
+#CompanyDetailView.swift<br>
+企業に関する情報をメモしておくスクリプト<br>
 
-＞課題点
-　　　企業URLやマイページのURLなども添付出来るようにする？
-   　もう少し、細かい表示にする？
+＞課題点<br>
+　　　企業URLやマイページのURLなども添付出来るようにする？<br>
+   　もう少し、細かい表示にする？<br>
     
-#MapView.swift
-マップ検索を行えるスクリプト
+#MapView.swift<br>
+マップ検索を行えるスクリプト<br>
 
-＞課題点
-　　　地名が入る場所を入力すると、上手く狙いの場所が表示されない時がある。
-     ＞MapKitの精度の限界
+＞課題点<br>
+　　　地名が入る場所を入力すると、上手く狙いの場所が表示されない時がある。<br>
+     ＞MapKitの精度の限界<br>
 
-#NewsView.swift
+#NewsView.swift<br>
+気になるニュースをリスト化して、表示するスクリプト
 
-#NewsInputView.swift
+#NewsInputView.swift<br>
+ニュースに関する情報をメモしておくスクリプト<br>
 
-#SupportView.swift
-
+#SupportView.swift<br>
+10日間、1ヶ月目標、Todoリスト、反省点、今日の名言を表示するスクリプト<br>
+目標、Todoリスト、反省点に関しては、編集可能です。
