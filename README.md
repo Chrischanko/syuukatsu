@@ -4,8 +4,8 @@
 #REC_SCHeduleApp.swift
 ランチスクリーンを表示するスクリプト
 
-#LaunchScreen.swift
-アプリ起動時にアイコンの表示後、ContentViewを表示するスクリプト
+#LaunchScreen.swift<br>
+アプリ起動時にアイコンの表示後、ContentViewを表示するスクリプト<br>
 
 #ContentView.swift
 タブとタブのクリックでScheduleView、CompanyView、MapView、NewsView、SupportViewのそれぞれを表示するスクリプト
