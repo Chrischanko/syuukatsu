@@ -1,6 +1,11 @@
 # syuukatsu<br>
 就活管理を行うアプリのスクリプトのみ<br>
 
+Xcode Version 13.0
+
+テスト環境
+iphone8~13
+
 #REC_SCHeduleApp.swift<br>
 ランチスクリーンを表示するスクリプト<br>
 
